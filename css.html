@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1
+        {
+            border: 2px solid black;
+            /* background-image: linear-gradient(to right, green , red,blue,pink,yellow,cyan,orange); */
+            background-image: repeating-linear-gradient(red 10%,blue 20%,yellow,green);
+        }
+        h2{
+            border: 2px solid black;
+            /* background-image: radial-gradient(circle, red 15%,green 60%,blue 55%); */
+            background-image: repeating-radial-gradient(yellow,blue);
+            width: 300px;
+            height: 300px;
+        }
+        h3{
+            background-image: conic-gradient(red,yellow,blue);
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        img
+        {
+            -webkit-box-reflect: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello world</h1>
+    <h2>hello</h2>
+    <h3>hello</h3>
+    <img src="./download.png" alt="">
+</body>
+</html>
